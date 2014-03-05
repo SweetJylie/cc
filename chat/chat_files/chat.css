@@ -1,0 +1,345 @@
+
+body, html ,td {font-family:verdana; font-size:11px; margin:0px; padding:0px; }
+img {border:0px;}
+.clear { clear: both;}
+.ulist-popup {position:absolute; top:0px; left:0px; display:block; z-index:1000; background:white; border: 2px solid #375F79; padding-bottom:5px;}
+.ulist-popup a{ color:#2D4C61; text-decoration:none; display:block; padding: 0px 5px 0px 5px; line-height:16px;}
+.ulist-popup .headline {background:#AAC4D3; font-weight:bold; color: #385D77; font-size:13px; line-height:18px; margin-bottom:5px;}
+.ulist-popup .headline a{position: absolute; right:0px; top:0px; padding:0px; display:block; width:14px; height:14px;  background: url(/grafiken/chat/close.gif) 0px 0px no-repeat;}
+.ulist-popup #cu_n {padding: 0px 19px 0px 5px; white-space:nowrap;}
+.c_tab {width:100%; height:100%; border:0px; margin:0px; padding:0px; border-collapse:collapse;}
+.ctop1 {padding:5px 0px 0px 5px;}
+.ww_chat_header {height:111px; background: url(/grafiken/chat/header_bg.jpg) 0px 0px repeat-x;}
+.ww_chat_header .ctop1 {background: url(/grafiken/chat/header_logo.gif) top right no-repeat;}
+.ww_chat_divide { background: #385F7C; width:2px;font-size:1px;}
+* html .ww_chat_column { width:86%; }
+.ww_chat_rightcolumn {width:250px;}
+.chan_text {height:27px; padding-left:12px; background: #385F7C;}
+.u_reg .chan_text {height:67px; padding-left:12px; background: #46738F;}
+.chan_text select {font-size:11px;}
+.uinfo {background: #D4E1E9; padding-left:12px; color:#385F7C; font-size:10px; font-weight:bold; height:14px;}
+.userlist {height:100%;width:250px;}
+
+#u_stats {height: 37px; position:relative;}
+#u_stats a {color:white; text-decoration:none; display:block; position:absolute; top:0px;}
+#u_stats .name {display:none;}
+#u_stats .uonl {background: url(/grafiken/chat/chat_freunde-online.gif) 0px 2px no-repeat; padding: 0px 0px 15px 12px; left:0px;}
+#u_stats .ufri {background: url(/grafiken/chat/chat_freundesanfragen.gif) 0px 2px no-repeat; padding: 0px 0px 15px 10px; left:55px;}
+#u_stats .unc {background: url(/grafiken/chat/chat_nachrichten.gif) 0px 2px no-repeat; padding: 0px 0px 15px 12px; left:110px;}
+#u_stats .value {font-size:11px; font-weight:bold; line-height:12px; color:white; background: url(/grafiken/chat/chat_number-small.gif) 2px 0px no-repeat; margin-left:10px; padding: 4px 14px 10px 10px; display:block;}
+#u_stats .value.big {background: url(/grafiken/chat/chat_number-big.gif) 0px 2px no-repeat;}
+#u_stats .value.no {background: transparent; color:#46738F;}
+
+#r_off1 {height:100%;}
+#ulscrollhelper { width:210px; min-height: 30px; height: auto !important; height: 30px; }
+* html .ulinner {width:210px;}
+.ulinner {width:210px;padding:5px 0px 10px 12px; font-size:11px; font-weight:bold; line-height:16px; color:#385F7C; overflow-x:hidden;overflow-y:auto; white-space:nowrap; position: absolute; top: 160px;}
+.u_reg .ulinner {width:188px;padding:5px 0px 10px 12px; font-size:11px; font-weight:bold; line-height:16px; color:#385F7C; overflow-x:hidden;overflow-y:auto; white-space:nowrap; position: absolute; top: 200px;}
+.ulinner a {font-weight:bold; color:#385F7C; text-decoration:none;}
+.ww_chat_footer {height:61px; background: url(/grafiken/chat/input_bg.jpg) 0px 0px repeat-x;}
+.ww_chat_footer_table {height:61px;}
+.adv {height:210px; overflow:hidden;}
+.chat_i {width:385px; padding-left:10px; padding-top:5px;}
+.chat_i input {width:375px;}
+.chat_i1 {width:30px;padding-top:5px;}
+.chat_i1 a{ text-decoration:none; width:22px; height:22px; display:block; background: url(/grafiken/chat/send.gif) 0px 0px no-repeat;}
+.chat_i1 a:hover {background-position:0px -22px;}
+.chat_i2 {color:white; width:90px;padding-top:5px;}
+.chat_i3 {width:190px;}
+.u_reg .chat_i3 {width:220px;}
+.chat_i4 {width:40px;}
+.chat_i5 div {width:210px;}
+.chat_ibg {background: url(/grafiken/chat/input_devider.jpg) 0px 6px no-repeat; padding:5px 0px 0px 20px;}
+.chat_ibg a{text-decoration:none;display:block; background: url(/grafiken/chat/chatbuttons.gif) 0px 0px no-repeat; width:25px; height:25px; float:left; margin-right:5px;}
+.chat_ibg a.b1:hover {background-position:0px -25px;}
+.chat_ibg a.b2 {background-position:0px -50px;}
+.chat_ibg a.b2:hover {background-position:0px -75px;}
+.chat_ibg a.b3 {background-position:0px -100px;}
+.chat_ibg a.b3:hover {background-position:0px -125px;}
+.chat_ibg a.b4 {background-position:0px -150px;}
+.chat_ibg a.b4:hover {background-position:0px -175px;}
+.chat_ibg a.b5 {background-position:0px -200px;}
+.chat_ibg a.b5:hover {background-position:0px -225px;}
+.chat_ibg a.b6 {background-position:0px -250px;}
+.chat_ibg a.b6:hover {background-position:0px -275px;}
+.chat_ibg a.b7 {background-position:0px -300px;}
+.chat_ibg a.b7:hover {background-position:0px -325px;}
+.chat_ibg a.b8 {background-position:0px -350px;}
+.chat_ibg a.b9 {background-position:0px -375px;}
+.chat_ibg a.b10 {background-position:0px -400px;}
+.chat_ibg a.b11 {background-position:0px -425px;}
+.chat_ibg a.b12 {background-position:0px -450px;}
+.chat_ibg a.b13 {background-position:0px -475px;}
+.chat_ibg a.b14 {background-position:0px -500px;}
+.chat_ibg a.b15 {background-position:0px -525px;}
+.chat_ibg a.b15:hover {background-position:0px -550px;}
+.u_reg .chat_ibg a.b16 {background-position:0px -575px;}
+.u_reg .chat_ibg a.b16:hover {background-position:0px -600px;}
+
+
+
+h1, h2, h3, h4, h5 {
+	font-size: 12px;
+	font-family: Tahoma, Verdana, Arial;
+	line-height: 100%;
+	color: #3f3f3f;
+	margin: 0px;
+	padding: 0px;
+}
+
+.h123456 { }
+
+.tooltip_msg {
+	background: #fff url(../grafiken/basic/tooltip/cont_bg.gif) left top repeat-x; 
+	width:300px;
+	height:auto;
+	color: #000;
+	border:1px solid #000;
+	padding:10px;
+}
+
+#tt_cin {
+	width: 290px;
+	height:100px;
+	padding: 5px;
+}
+
+.tooltip_msg .ww_tooltip_cont {
+	margin-top:10px;
+}
+
+.tooltip_msg  .button_wrapper {
+	background-color:#fff;
+	padding:10px 0px 0px 0px;
+}
+.tooltip_msg .button {
+	background:transparent url(../grafiken/basic/buttons/basic_button_left_1.gif) no-repeat scroll left top;
+	float:left;
+	height:27px;
+	margin-right:5px;
+	padding:0px 0px 0px 20px;
+}
+
+.tooltip_msg .button .button_right {
+	background:transparent url(../grafiken/basic/buttons/basic_button_right_1.gif) no-repeat scroll right top;
+	float:left;
+	font-size:11px;
+	height:27px;
+	line-height:25px;
+	padding:0px 15px 0px 5px;
+}
+
+.tooltip_msg .button_on {
+	background:transparent url(../grafiken/basic/buttons/basic_button_left_2.gif) no-repeat scroll left top;
+	float:left;
+	height:27px;
+	margin-right:5px;
+	padding:0px 0px 0px 20px;
+}
+
+.tooltip_msg .button_on .button_right {
+	background:transparent url(../grafiken/basic/buttons/basic_button_right_2.gif) no-repeat scroll right top;
+	float:left;
+	font-size:11px;
+	height:27px;
+	line-height:25px;
+	padding:0px 15px 0px 5px;
+}
+.ww_tooltip_cont{
+	padding:5px;
+	background-color: #fff;
+}
+
+
+.tooltip_msg a {
+	color: #000;
+}
+
+.cl {
+	clear: both;
+	line-height: 0px;
+	font-size: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+
+	#ww_tooltip_usersuche {
+		
+		border:3px solid #385f7b;
+	}
+	
+	*html #ww_tooltip_usersuche {
+	
+	}
+	
+	#ww_tooltip_usersuche #rahmen {;
+		background-color: #fff;
+		width:256px;
+		height:435px;
+
+	}
+	#ww_tooltip_usersuche  .ww_tooltip_usersuche_header {
+		background-color:#abc4d4;
+		padding:4px 5px 4px 5px;
+	}
+	
+		*html #ww_tooltip_usersuche  .ww_tooltip_usersuche_header {
+		padding:4px 5px 0px 5px;
+	}
+	
+	#ww_tooltip_usersuche .ww_tooltip_usersuche_header a {
+		
+	}
+	#ww_tooltip_usersuche .ww_tooltip_usersuche_ti {
+		color: #385f7b;
+		font-weight:bold;
+		text-transform: uppercase;
+		float: left;
+	}
+	
+	#ww_tooltip_usersuche .ww_tooltip_usersuche_header a {
+		float:right;
+		background: url(http://images.chatcity.de/grafiken/chat/chat_usersuche_close.gif) top left no-repeat;
+		width: 14px;
+		height: 14px;
+	}
+	
+	#ww_tooltip_usersuche #su {
+		display: block;
+		background-color: #385f7b;
+		padding: 3px 0px 3px 0px;
+		margin:0px;
+	}
+	
+
+	#ww_tooltip_usersuche .info_total {
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	
+	#ww_tooltip_usersuche .info_total div {
+		float: left;
+		margin-right: 3px;
+
+	}
+	#ww_tooltip_usersuche .info_total .prefix {
+		display: none;
+	}
+	#ww_tooltip_usersuche p,
+	#ww_tooltip_usersuche .info_total .suffix,
+	#ww_tooltip_usersuche .info_total .value {
+		color: #385f7b;
+		font-size:14px;
+		font-weight: bold;
+	}
+	#ww_tooltip_usersuche p {
+		maring:0px;
+		padding:0px;
+	}
+
+	#ww_tooltip_usersuche .list {
+		margin-top:13px;
+	}
+	#ww_tooltip_usersuche .obj_list img{
+		border: 0px;
+		width: 48px;
+		height: 48px;
+	}
+	
+	#ww_tooltip_usersuche .obj_list .obj_owner_wrapper {
+		width: 235px;
+		height: 50px;
+		padding: 3px;
+		margin-right: 9px;
+		background: url(http://images.chatcity.de/grafiken/id/flist_user_bg48.gif) left top no-repeat;
+		margin-top:3px;
+	}
+	
+	
+	#ww_tooltip_usersuche .obj_list .obj_uimg {
+		width:56px;
+		float: left;
+	}
+
+	#ww_tooltip_usersuche .obj_list .obj_uimg_cl {
+		clear: none !important;
+	}
+
+
+	#ww_tooltip_usersuche .obj_list .obj_owner .textinfos {
+		float:left;
+		background-color: #ecf3f9;
+		line-height: 44px;
+		padding-left:4px;
+		height: 48px;
+		width:173px;
+		overflow:hidden;
+	}
+	
+	#ww_tooltip_usersuche .obj_list .obj_owner .textinfos a{
+		color:#385f7b;
+		font-size:12px;
+		text-decoration:none;
+		font-weight: bold;
+	}
+	
+	#ww_tooltip_usersuche .info_anz {display: none;}
+	
+	#ww_tooltip_usersuche #searchstring {
+		width:177px;
+	}
+	
+	
+#ww_tooltip_usersuche .pager {
+	margin-top: 13px;
+	background:#EDF3FA;
+	color:#205488;
+	font-size:10px;
+	height:25px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
+
+#ww_tooltip_usersuche .pager .prevpage,
+#ww_tooltip_usersuche .pager .nextpage,
+#ww_tooltip_usersuche .pager .firstpage,
+#ww_tooltip_usersuche .pager .prefix,
+#ww_tooltip_usersuche .pager .firstpage,
+#ww_tooltip_usersuche .pager .other,
+#ww_tooltip_usersuche .pager .current,
+#ww_tooltip_usersuche .pager .lastpage{
+	display:none;
+}
+
+#ww_tooltip_usersuche .anvs {
+	position:absolute;
+	margin-top:7px;
+	left:80px;
+}
+
+
+
+#ww_tooltip_usersuche .pager .nextpage{
+	display:block;
+	float:right;
+	width:50px;
+	height:25px;
+	background: url(http://images.chatcity.de/grafiken/id/pager_next.jpg) left top no-repeat;
+	text-decoration:none;
+}
+#ww_tooltip_usersuche .pager .prevpage{
+	display:block;
+	float:left;
+	width:50px;
+	height:25px;
+	background: url(http://images.chatcity.de/grafiken/id/pager_prev.jpg) left top no-repeat;
+	text-decoration:none;
+}
+
+

@@ -1,0 +1,43 @@
+#live
+{
+	position: absolute;
+	left:500px;
+	top:150px;
+	width: 426px;
+	color: #6492b0;
+}
+
+.live_row1,.live_row2,.live_row3 { float: right; margin-left: 10px; }
+
+.live_lt { font-weight: bold; font-size: 22px; line-height: 24px; }
+.live_lb { font-weight: bold; font-size: 12px; line-height: 12px; }
+.live_r { padding-top: 40px; font-weight: bold; font-size: 12px; line-height: 12px; }
+
+.numbers
+{
+	height: 53px;
+	float:left;
+}
+
+.numbers .n
+{
+	background-image: url(/grafiken/global/numbers.gif);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	height: 53px;
+	width: 38px;
+	overflow: hidden;
+	float: left;
+}
+
+.numbers .np { background-image: url(/grafiken/global/number_point.gif); background-position: left 42px; width: 10px; }
+.numbers .n1 { background-position: left 0px; }
+.numbers .n2 { background-position: left -53px; }
+.numbers .n3 { background-position: left -105px; }
+.numbers .n4 { background-position: left -159px; }
+.numbers .n5 { background-position: left -210px; }
+.numbers .n6 { background-position: left -261px; }
+.numbers .n7 { background-position: left -312px; }
+.numbers .n8 { background-position: left -365px; }
+.numbers .n9 { background-position: left -420px; }
+.numbers .n0 { background-position: left -470px; }
